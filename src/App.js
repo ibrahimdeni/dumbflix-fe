@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Movies from './pages/Movies';
 import TvShows from './pages/TvShows';
 // import Profile from './pages/Profile';
-// import Payment from './pages/Payment';
+import Payment from './pages/Payment';
 // import VideoDetail from './pages/VideoDetail';
 
 function App() {
@@ -29,6 +29,12 @@ function App() {
         <Route path='/tvshows' element={
           <Layout>
             <TvShows />
+          </Layout>
+        }/>
+
+        <Route path='/payment' element={
+          <Layout>
+            <Payment />
           </Layout>
         }/>
 {/*   

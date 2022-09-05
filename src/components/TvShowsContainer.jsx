@@ -8,7 +8,7 @@ function SeriesContainer() {
     
   return (
     <div >
-      <Container className="mt-5 overflow-hidden" id="" >
+      <Container className="overflow-hidden" id="" >
         <h3 className="text-light mt-4 mb-3">TV Series</h3>
         <Row>
           {data.map((data, index) => {
